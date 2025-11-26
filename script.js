@@ -1,8 +1,8 @@
-let button1 = new Audio("./_src/button.mp3");
-let button2 = new Audio("./_src/button2.mp3");
-let err = new Audio("./_src/error.mp3");
-let succ = new Audio("./_src/sucess.mp3");
-let sweep = new Audio("./_src/clear.mp3");
+let button1 = new Audio("./button.mp3");
+let button2 = new Audio("./button2.mp3");
+let err = new Audio("./error.mp3");
+let succ = new Audio("./sucess.mp3");
+let sweep = new Audio("./clear.mp3");
 
 function input(char) {
   let s = document.getElementById("display").innerText;
